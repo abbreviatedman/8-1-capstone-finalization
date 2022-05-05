@@ -1,0 +1,126 @@
+/* Applies to all slides. */
+.reveal {
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: heading;
+  src: url(../assets/fonts/Rene\ Bieder\ -\ Galano\ Grotesque\ SemiBold.otf);
+}
+
+@font-face {
+  font-family: subheading;
+  src: url(../assets/fonts/Graphik-Regular.otf);
+}
+
+@font-face {
+  font-family: code;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+.splash-page {
+  background-image: url(../assets/images/Pursuit\ Zoom\ Backgrounds-Wordmark.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+strong {
+  color: #4242ea;
+  font-weight: normal;
+}
+
+/* Biggest heading on a splash page. */
+.splash-page h1,
+.splash-page h2,
+.splash-page h3,
+.splash-page h4 {
+  color: #edff00;
+  text-shadow: none;
+  letter-spacing: normal;
+  font-family: heading;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+/* Sub-headings on a splash page. */
+.splash-page h1 ~ h2,
+.splash-page h1 ~ h3,
+.splash-page h1 ~ h4,
+.splash-page h2 ~ h3,
+.splash-page h2 ~ h4,
+.splash-page h3 ~ h4 {
+  text-transform: capitalize;
+  font-family: subheading;
+  color: black;
+}
+
+section.splash-page {
+  background-image: initial;
+}
+
+ul {
+  margin: 30px;
+}
+
+li {
+  color: #1e1e1e;
+  font-family: subheading;
+  margin: 20px;
+  text-align: left;
+}
+
+/* Biggest heading on a slide. */
+h1,
+h2,
+h3,
+h4 {
+  color: #4242ea;
+  text-shadow: none;
+  letter-spacing: normal;
+  font-family: heading;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+/* Sub-headings on a slide. */
+h1 ~ h2,
+h1 ~ h3,
+h1 ~ h4,
+h2 ~ h3,
+h2 ~ h4,
+h3 ~ h4 {
+  text-transform: capitalize;
+  font-family: subheading;
+  color: black;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+a {
+  color: #2a76dd;
+}
+
+a:hover {
+  opacity: 85%;
+}
+
+a:active {
+  opacity: 75%;
+}
+
+code {
+  border: 1px solid black;
+  margin: 20px;
+  text-align: left;
+}
